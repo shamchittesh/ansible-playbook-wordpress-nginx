@@ -11,8 +11,8 @@ auto_up_disable: true
 server_hostname: tucsonlabs.dev
 
 # WordPress Version
-wp_version: 4.7.5
-wp_sha1sum: fbe0ee1d9010265be200fe50b86f341587187302
+wp_version: 6.0
+wp_sha1sum: 7a5a6d0591771e730b05c49d0c3fc134624d0491
 
 #Define Core Update Level
 #true  = Development, minor, and major updates are all enabled
