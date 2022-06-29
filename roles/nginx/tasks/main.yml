@@ -11,6 +11,14 @@
   with_items:
     - nginx
     - git
+    
+- htpasswd:
+    path: /etc/nginx/.htpasswd
+    name: {{htuser}}
+    password: {{htpasswd}}
+    owner: root
+    group: www-data
+    mode: 0640
 
 - name: Start nginx
   become: yes
