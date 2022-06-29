@@ -13,6 +13,7 @@
     - php-ssh2
     - libmcrypt-dev
     - php8.1-fpm
+    - php8.1-zip
 
 
 - name: setup php ini
